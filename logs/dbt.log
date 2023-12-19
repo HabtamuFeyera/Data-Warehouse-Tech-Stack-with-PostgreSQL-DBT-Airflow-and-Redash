@@ -1,0 +1,201 @@
+[0m15:31:53.550313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8256880d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe825681710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe825688750>]}
+
+
+============================== 15:31:53.562696 | 5cd1266c-8d42-4068-a735-0f1e574713f9 ==============================
+[0m15:31:53.562696 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:31:53.564816 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/habte/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init WEEK02', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:31:53.566771 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/habte/.dbt')}
+[0m15:31:53.568495 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m15:31:53.573634 [debug] [MainThread]: Starter project path: /home/habte/anaconda3/lib/python3.11/site-packages/dbt/include/starter_project
+[0m15:31:53.588908 [info ] [MainThread]: 
+Your new dbt project "WEEK02" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:31:53.592264 [info ] [MainThread]: Setting up your profile.
+[0m15:34:21.285523 [error] [MainThread]: Encountered an error:
+list index out of range
+[0m15:34:21.291275 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/habte/anaconda3/lib/python3.11/site-packages/dbt/cli/requires.py", line 90, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/habte/anaconda3/lib/python3.11/site-packages/dbt/cli/requires.py", line 75, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/habte/anaconda3/lib/python3.11/site-packages/dbt/cli/main.py", line 515, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/habte/anaconda3/lib/python3.11/site-packages/dbt/task/init.py", line 344, in run
+    self.setup_profile(profile_name)
+  File "/home/habte/anaconda3/lib/python3.11/site-packages/dbt/task/init.py", line 263, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/habte/anaconda3/lib/python3.11/site-packages/dbt/task/init.py", line 245, in ask_for_adapter_choice
+    return available_adapters[numeric_choice - 1]
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+[0m15:34:21.295255 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 147.7514, "process_user_time": 4.967028, "process_kernel_time": 0.527334, "process_mem_max_rss": "99408", "process_in_blocks": "59312", "process_out_blocks": "72", "command_success": false}
+[0m15:34:21.297213 [debug] [MainThread]: Command `dbt init` failed at 15:34:21.296673 after 147.75 seconds
+[0m15:34:21.298569 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8256a7890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8256a7ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe829ee8110>]}
+[0m15:34:21.300096 [debug] [MainThread]: Flushing usage events
+[0m15:40:18.771310 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccce840410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccce061a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccce06a4d0>]}
+
+
+============================== 15:40:18.781949 | 540cd179-d183-435b-8f22-deb438f30eaf ==============================
+[0m15:40:18.781949 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:40:18.785397 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/habte/WEEK02', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir /home/habte/WEEK02 --profile my_profile', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:40:18.788455 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/habte/WEEK02/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:40:18.795995 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.028885022, "process_user_time": 4.802097, "process_kernel_time": 0.384961, "process_mem_max_rss": "99540", "process_in_blocks": "39256", "process_out_blocks": "16", "command_success": false}
+[0m15:40:18.799470 [debug] [MainThread]: Command `dbt run` failed at 15:40:18.798503 after 0.03 seconds
+[0m15:40:18.801654 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcccea98910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccce07c190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccce07fed0>]}
+[0m15:40:18.803570 [debug] [MainThread]: Flushing usage events
+[0m15:44:28.215985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f490d892210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f490d892090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f490d892010>]}
+
+
+============================== 15:44:28.228647 | 99ce73d4-afa3-4f8b-afcf-51ec4f0e593a ==============================
+[0m15:44:28.228647 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:44:28.230682 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/habte/WEEK02', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --profiles-dir /home/habte/WEEK02', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:44:28.233489 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/habte/WEEK02/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:44:28.238198 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.02835729, "process_user_time": 4.85782, "process_kernel_time": 0.262903, "process_mem_max_rss": "99720", "process_in_blocks": "16", "process_out_blocks": "16", "command_success": false}
+[0m15:44:28.240854 [debug] [MainThread]: Command `dbt run` failed at 15:44:28.240108 after 0.03 seconds
+[0m15:44:28.242655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f490e2c4850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f490d890650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f490d890610>]}
+[0m15:44:28.245891 [debug] [MainThread]: Flushing usage events
+[0m15:48:37.205003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b45ddb450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b47c31050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b46653550>]}
+
+
+============================== 15:48:37.212731 | 988b48a2-f1e9-4112-8535-67337e784909 ==============================
+[0m15:48:37.212731 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:48:37.214772 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/habte/WEEK02', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir /home/habte/WEEK02', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:48:37.216730 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/habte/WEEK02/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:48:37.219479 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.019452153, "process_user_time": 4.66999, "process_kernel_time": 0.278924, "process_mem_max_rss": "99480", "process_in_blocks": "64", "process_out_blocks": "8", "command_success": false}
+[0m15:48:37.221491 [debug] [MainThread]: Command `dbt run` failed at 15:48:37.220936 after 0.02 seconds
+[0m15:48:37.222911 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b45de0ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b45de1510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b45de0450>]}
+[0m15:48:37.224432 [debug] [MainThread]: Flushing usage events
+[0m15:51:29.869481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb24abd6f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb24a3795d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb24a379c10>]}
+
+
+============================== 15:51:29.879676 | e4320f9d-0cbc-4cb1-9d12-a801062a4c07 ==============================
+[0m15:51:29.879676 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:51:29.881823 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/habte/WEEK02', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir /home/habte/WEEK02', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:51:29.883903 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m15:51:29.886753 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.062939994, "process_user_time": 4.680554, "process_kernel_time": 0.240533, "process_mem_max_rss": "99828", "process_in_blocks": "16", "process_out_blocks": "16", "command_success": false}
+[0m15:51:29.890049 [debug] [MainThread]: Command `dbt run` failed at 15:51:29.889404 after 0.07 seconds
+[0m15:51:29.891709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb24a8d2f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb24a379590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb24ebdc250>]}
+[0m15:51:29.893842 [debug] [MainThread]: Flushing usage events
+[0m15:53:06.969370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04d8d73150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04d8d7a310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04d8d7a190>]}
+
+
+============================== 15:53:06.977109 | 38ecff4e-b6c1-4c49-9d1c-56fa58b5d484 ==============================
+[0m15:53:06.977109 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:53:06.979081 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/habte/WEEK02', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --profiles-dir /home/habte/WEEK02', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:53:06.981087 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m15:53:06.983674 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.019376688, "process_user_time": 4.671108, "process_kernel_time": 0.257962, "process_mem_max_rss": "100148", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m15:53:06.993512 [debug] [MainThread]: Command `dbt run` failed at 15:53:06.992941 after 0.03 seconds
+[0m15:53:06.995094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04d8d8fa90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04d8d79110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04dd5e0250>]}
+[0m15:53:06.996603 [debug] [MainThread]: Flushing usage events
+[0m15:53:24.071896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda46742190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda46f9a850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda46742590>]}
+
+
+============================== 15:53:24.080511 | a6b89b55-f2bc-43dd-866e-f6ad03512d46 ==============================
+[0m15:53:24.080511 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:53:24.082838 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/habte/WEEK02', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run --profiles-dir /home/habte/WEEK02', 'send_anonymous_usage_stats': 'True'}
+[0m15:53:24.085219 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m15:53:24.088133 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.020954233, "process_user_time": 4.82037, "process_kernel_time": 0.402348, "process_mem_max_rss": "99744", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m15:53:24.090138 [debug] [MainThread]: Command `dbt run` failed at 15:53:24.089586 after 0.02 seconds
+[0m15:53:24.091576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda46740650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda46741250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda4afa8250>]}
+[0m15:53:24.093248 [debug] [MainThread]: Flushing usage events
+[0m15:58:23.706454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e780b4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e6fadcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e6fae490>]}
+
+
+============================== 15:58:23.714345 | da51d575-fcb7-45b2-8012-12fa4851651a ==============================
+[0m15:58:23.714345 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:58:23.716648 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/habte/WEEK02', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --profiles-dir /home/habte/WEEK02', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:58:23.718760 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m15:58:23.729780 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.020498633, "process_user_time": 4.670785, "process_kernel_time": 0.286453, "process_mem_max_rss": "99572", "process_in_blocks": "8", "process_out_blocks": "8", "command_success": false}
+[0m15:58:23.731929 [debug] [MainThread]: Command `dbt run` failed at 15:58:23.731358 after 0.03 seconds
+[0m15:58:23.733464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e6fc3550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e6fc3f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67eb810290>]}
+[0m15:58:23.734965 [debug] [MainThread]: Flushing usage events
+[0m16:00:42.292871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b34714390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b33f1b350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b33f1a010>]}
+
+
+============================== 16:00:42.308981 | caebdd45-c8e5-4cad-ac78-53d0a14d530c ==============================
+[0m16:00:42.308981 [info ] [MainThread]: Running with dbt=1.7.4
+[0m16:00:42.311227 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/habte/WEEK02', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir /home/habte/WEEK02', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:00:42.314220 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m16:00:42.323159 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.037529085, "process_user_time": 5.202638, "process_kernel_time": 0.45374, "process_mem_max_rss": "99476", "process_in_blocks": "38784", "process_out_blocks": "8", "command_success": false}
+[0m16:00:42.327157 [debug] [MainThread]: Command `dbt run` failed at 16:00:42.324664 after 0.04 seconds
+[0m16:00:42.332098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b33f433d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b33f43a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2b33f439d0>]}
+[0m16:00:42.333780 [debug] [MainThread]: Flushing usage events
+[0m16:03:58.596837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca4855dd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca48557890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca49e72b10>]}
+
+
+============================== 16:03:58.606848 | ba12abcd-64a7-4c67-846f-2e5504a3e43c ==============================
+[0m16:03:58.606848 [info ] [MainThread]: Running with dbt=1.7.4
+[0m16:03:58.609085 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/habte/WEEK02', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --profiles-dir /home/habte/WEEK02', 'send_anonymous_usage_stats': 'True'}
+[0m16:03:58.611507 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m16:03:58.623176 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.03187441, "process_user_time": 4.932532, "process_kernel_time": 0.378506, "process_mem_max_rss": "99940", "process_in_blocks": "13752", "process_out_blocks": "8", "command_success": false}
+[0m16:03:58.625219 [debug] [MainThread]: Command `dbt run` failed at 16:03:58.624650 after 0.03 seconds
+[0m16:03:58.627542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca4855c310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca4855d5d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca4cde8210>]}
+[0m16:03:58.629564 [debug] [MainThread]: Flushing usage events
+[0m16:07:54.682075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f55fff0f150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f56006f4210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5602d26550>]}
+
+
+============================== 16:07:54.699358 | 7068b906-e828-477c-8534-88e263e3ad1f ==============================
+[0m16:07:54.699358 [info ] [MainThread]: Running with dbt=1.7.4
+[0m16:07:54.704510 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/habte/WEEK02', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --profiles-dir /home/habte/WEEK02', 'send_anonymous_usage_stats': 'True'}
+[0m16:07:54.708949 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m16:07:54.714013 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.044473052, "process_user_time": 5.296329, "process_kernel_time": 0.352045, "process_mem_max_rss": "99764", "process_in_blocks": "8", "process_out_blocks": "8", "command_success": false}
+[0m16:07:54.718796 [debug] [MainThread]: Command `dbt run` failed at 16:07:54.718070 after 0.05 seconds
+[0m16:07:54.722592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5600e886d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f55fff15310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f55fff148d0>]}
+[0m16:07:54.724703 [debug] [MainThread]: Flushing usage events
+[0m16:09:10.825443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff29948a0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff29948a050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff299489fd0>]}
+
+
+============================== 16:09:10.877510 | bc3d27d2-624d-4201-b26c-1271972d08e1 ==============================
+[0m16:09:10.877510 [info ] [MainThread]: Running with dbt=1.7.4
+[0m16:09:10.882726 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/habte/WEEK02', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run --profiles-dir /home/habte/WEEK02', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:09:10.887945 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m16:09:10.897258 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.0829003, "process_user_time": 6.087592, "process_kernel_time": 0.366437, "process_mem_max_rss": "100100", "process_in_blocks": "72", "process_out_blocks": "16", "command_success": false}
+[0m16:09:10.899477 [debug] [MainThread]: Command `dbt run` failed at 16:09:10.898850 after 0.09 seconds
+[0m16:09:10.906878 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff2999e2c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff29dcf0210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff29dcf0290>]}
+[0m16:09:10.911465 [debug] [MainThread]: Flushing usage events
