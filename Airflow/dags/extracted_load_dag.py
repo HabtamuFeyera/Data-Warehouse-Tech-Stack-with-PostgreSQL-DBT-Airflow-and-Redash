@@ -1,7 +1,7 @@
 # We'll start by importing the DAG object
 import sys
 import pendulum
-sys.path.append('/home/habte/WEEK02/airflow-environment')
+sys.path.append('Airflow')
 from scripts.extractload import ELT
 
 # Rest of your script...
