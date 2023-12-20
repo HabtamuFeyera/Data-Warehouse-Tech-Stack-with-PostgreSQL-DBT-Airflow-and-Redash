@@ -163,3 +163,68 @@
 [2023-12-20T06:52:51.581+0000] {logging_mixin.py:188} INFO - [2023-12-20T06:52:51.580+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
 [2023-12-20T06:52:56.611+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
 [2023-12-20T06:52:56.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 5.242 seconds
+[2023-12-20T06:53:28.946+0000] {processor.py:161} INFO - Started process (PID=4037) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:53:28.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T06:53:28.996+0000] {logging_mixin.py:188} INFO - [2023-12-20T06:53:28.980+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:53:37.330+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:53:37.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 8.694 seconds
+[2023-12-20T06:54:31.492+0000] {processor.py:161} INFO - Started process (PID=4106) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:54:31.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T06:54:31.558+0000] {logging_mixin.py:188} INFO - [2023-12-20T06:54:31.541+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:54:38.637+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:54:38.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 7.413 seconds
+[2023-12-20T06:55:20.458+0000] {processor.py:161} INFO - Started process (PID=4162) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:55:20.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T06:55:20.539+0000] {logging_mixin.py:188} INFO - [2023-12-20T06:55:20.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:55:24.638+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:55:24.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 4.460 seconds
+[2023-12-20T06:55:59.602+0000] {processor.py:161} INFO - Started process (PID=4223) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:55:59.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T06:55:59.607+0000] {logging_mixin.py:188} INFO - [2023-12-20T06:55:59.606+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:56:00.619+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:56:00.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 1.052 seconds
+[2023-12-20T06:56:32.912+0000] {processor.py:161} INFO - Started process (PID=4271) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:56:32.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T06:56:32.930+0000] {logging_mixin.py:188} INFO - [2023-12-20T06:56:32.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:56:35.828+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T06:56:35.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 3.068 seconds
+[2023-12-20T07:07:29.437+0000] {processor.py:161} INFO - Started process (PID=4312) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:07:29.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T07:07:29.463+0000] {logging_mixin.py:188} INFO - [2023-12-20T07:07:29.462+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:07:30.556+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:07:30.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 1.164 seconds
+[2023-12-20T07:08:01.030+0000] {processor.py:161} INFO - Started process (PID=4373) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:08:01.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T07:08:01.055+0000] {logging_mixin.py:188} INFO - [2023-12-20T07:08:01.053+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:08:01.825+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:08:01.857+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 0.834 seconds
+[2023-12-20T07:08:32.610+0000] {processor.py:161} INFO - Started process (PID=4431) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:08:32.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T07:08:32.622+0000] {logging_mixin.py:188} INFO - [2023-12-20T07:08:32.620+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:08:34.857+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:08:34.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 2.311 seconds
+[2023-12-20T07:09:09.225+0000] {processor.py:161} INFO - Started process (PID=4490) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:09:09.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T07:09:09.237+0000] {logging_mixin.py:188} INFO - [2023-12-20T07:09:09.236+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:09:17.608+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:09:17.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 8.638 seconds
+[2023-12-20T07:09:48.632+0000] {processor.py:161} INFO - Started process (PID=4548) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:09:48.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T07:09:48.639+0000] {logging_mixin.py:188} INFO - [2023-12-20T07:09:48.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:09:56.397+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:09:56.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 8.040 seconds
+[2023-12-20T07:10:41.230+0000] {processor.py:161} INFO - Started process (PID=4604) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:10:41.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T07:10:41.247+0000] {logging_mixin.py:188} INFO - [2023-12-20T07:10:41.243+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:10:47.535+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:10:47.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 6.388 seconds
+[2023-12-20T07:11:19.364+0000] {processor.py:161} INFO - Started process (PID=4666) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:11:19.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T07:11:19.392+0000] {logging_mixin.py:188} INFO - [2023-12-20T07:11:19.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:11:21.113+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:11:21.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 1.845 seconds
+[2023-12-20T07:11:52.526+0000] {processor.py:161} INFO - Started process (PID=4725) to work on /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:11:52.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/managerpostgres.py for tasks to queue
+[2023-12-20T07:11:52.572+0000] {logging_mixin.py:188} INFO - [2023-12-20T07:11:52.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:11:56.286+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/managerpostgres.py
+[2023-12-20T07:11:56.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/managerpostgres.py took 3.864 seconds
