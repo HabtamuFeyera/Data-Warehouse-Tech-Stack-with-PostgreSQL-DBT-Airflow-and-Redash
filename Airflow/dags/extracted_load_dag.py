@@ -8,9 +8,9 @@ from scripts.extractload import ELT
 from datetime import timedelta, datetime
 from pathlib import Path
 
-from airflow import DAG
+from Airflow import DAG
 # We need to import the operators used in our tasks
-from airflow.operators.python import PythonOperator
+from Airflow.operators.python_Operator import PythonOperator
 
 import pandas as pd
 import sqlite3
