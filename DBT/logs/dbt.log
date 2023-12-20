@@ -1,0 +1,70 @@
+[0m12:13:32.682130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f6be64b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f6c4d6ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f6be65d10>]}
+
+
+============================== 12:13:32.693593 | ad91c8fd-4b9f-4a0a-a8fe-cefefdeee234 ==============================
+[0m12:13:32.693593 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:13:32.700102 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/habte/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:13:32.702580 [error] [MainThread]: Encountered an error:
+string indices must be integers, not 'str'
+[0m12:13:32.709528 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/habte/anaconda3/lib/python3.11/site-packages/dbt/cli/requires.py", line 90, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/habte/anaconda3/lib/python3.11/site-packages/dbt/cli/requires.py", line 75, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/habte/anaconda3/lib/python3.11/site-packages/dbt/cli/main.py", line 515, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/habte/anaconda3/lib/python3.11/site-packages/dbt/task/init.py", line 317, in run
+    profile_name = self.get_profile_name_from_current_project()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/habte/anaconda3/lib/python3.11/site-packages/dbt/task/init.py", line 142, in get_profile_name_from_current_project
+    return dbt_project["profile"]
+           ~~~~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+[0m12:13:32.716032 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 0.041620255, "process_user_time": 6.093162, "process_kernel_time": 0.736624, "process_mem_max_rss": "100896", "process_in_blocks": "123568", "process_out_blocks": "8", "command_success": false}
+[0m12:13:32.717938 [debug] [MainThread]: Command `dbt init` failed at 12:13:32.717387 after 0.04 seconds
+[0m12:13:32.719571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f6c4d6810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f6c8ff150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f6c8ff250>]}
+[0m12:13:32.721094 [debug] [MainThread]: Flushing usage events
+[0m12:46:24.333089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b449a73d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b442def90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b442def10>]}
+
+
+============================== 12:46:24.345351 | 0be14e45-e58d-4e0c-bba9-9ee89fe6b90d ==============================
+[0m12:46:24.345351 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:46:24.347756 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/habte/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:46:24.350072 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m12:46:24.369994 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.047233384, "process_user_time": 5.990255, "process_kernel_time": 0.70449, "process_mem_max_rss": "100620", "process_in_blocks": "93312", "process_out_blocks": "16", "command_success": false}
+[0m12:46:24.375040 [debug] [MainThread]: Command `dbt run` failed at 12:46:24.374380 after 0.05 seconds
+[0m12:46:24.391411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b448598d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b4887c5d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b4887c510>]}
+[0m12:46:24.399169 [debug] [MainThread]: Flushing usage events
+[0m12:47:58.917699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feaae166910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feaae166990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feaae166d90>]}
+
+
+============================== 12:47:58.927444 | a4e75b69-9dd4-4d65-b90f-4fdbd25e5f3f ==============================
+[0m12:47:58.927444 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:47:58.929807 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/habte/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:47:58.932607 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m12:47:58.936081 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.023318393, "process_user_time": 5.864272, "process_kernel_time": 0.396124, "process_mem_max_rss": "100972", "process_in_blocks": "6448", "process_out_blocks": "8", "command_success": false}
+[0m12:47:58.938701 [debug] [MainThread]: Command `dbt run` failed at 12:47:58.937895 after 0.03 seconds
+[0m12:47:58.940617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feaae91f210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feaae7f2290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feab2a12b50>]}
+[0m12:47:58.943018 [debug] [MainThread]: Flushing usage events
+[0m13:01:49.668336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7febbc052750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7febbc7c9a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7febbc053590>]}
+
+
+============================== 13:01:49.681309 | 52886da4-35db-40f0-a943-eb05c8cb1f8b ==============================
+[0m13:01:49.681309 [info ] [MainThread]: Running with dbt=1.7.4
+[0m13:01:49.683749 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/habte/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir /home/habte/.dbt --profile my_DBT', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:01:49.686078 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m13:01:49.692113 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.028722743, "process_user_time": 5.588907, "process_kernel_time": 0.336029, "process_mem_max_rss": "101096", "process_in_blocks": "624", "process_out_blocks": "16", "command_success": false}
+[0m13:01:49.698486 [debug] [MainThread]: Command `dbt run` failed at 13:01:49.693733 after 0.03 seconds
+[0m13:01:49.701356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7febbc073f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7febbe98fc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7febbcb15c50>]}
+[0m13:01:49.703217 [debug] [MainThread]: Flushing usage events
+[0m13:01:52.139922 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
