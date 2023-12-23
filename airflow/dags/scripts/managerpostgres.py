@@ -6,13 +6,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy import text
 from sqlalchemy import inspect
-# from dotenv import load_dotenv
 
-# dotenv_path = join(dirname(__file__), '.env')
-# load_dotenv(dotenv_path)
-
-# Connect to your PostgreSQL database on a remote server
-HOST = os.getenv("DBHOST")
 PORT = os.getenv("DBPORT")
 USER = os.getenv("DBUSER")
 PASS = os.getenv("DBPASS")
