@@ -1,0 +1,15 @@
+# profiles.yml
+
+myweek2:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: habte
+      dbname: myweek2
+      port: 5432
+      schema: public
+      threads: 4
+      keepalives_idle: 0
