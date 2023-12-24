@@ -12,8 +12,7 @@ class ExtractLoadTransform:
         data_reader = DataReader(file_path="/home/habte/Downloads/20181024_d1_0830_0900.csv")
         vehicle_data, trajectories_data = data_reader.get_dfs(v=1)
 
-        # Specify your PostgreSQL database connection URL
-        # Adjust the values based on your actual PostgreSQL setup
+        
         schema_path = os.path.join(os.path.dirname(__file__), self.TRAJECTORY_SCHEMA)
         
         # Create tables

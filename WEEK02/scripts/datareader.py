@@ -63,7 +63,7 @@ if __name__ == "__main__":
     data_reader = DataReader(file_path="/home/habte/Downloads/20181024_d1_0830_0900.csv")
     vehicle_data, trajectories_data = data_reader.get_dfs(v=1)
 
-    # Specify your corrected PostgreSQL database connection URL
+  
     database_url = "postgresql://postgres:habte@localhost:5432/WEEK@2"
 
     # Load data into PostgreSQL

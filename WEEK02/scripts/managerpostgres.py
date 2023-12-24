@@ -1,5 +1,3 @@
-# scripts/managerpostgres.py
-
 from sqlalchemy import create_engine
 from sqlalchemy.exc import ProgrammingError
 import pandas as pd
