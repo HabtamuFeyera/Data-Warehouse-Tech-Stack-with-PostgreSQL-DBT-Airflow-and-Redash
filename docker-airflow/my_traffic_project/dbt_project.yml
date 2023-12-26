@@ -1,0 +1,22 @@
+name: my_traffic_project
+version: '1.0'
+
+profile: 'myweek'
+
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target"]
+
+on-run-start: []
+
+models:
+  my_traffic:
+    raw_traffic_data:
+      enabled: true
+
+    traffic_data_model:
+      enabled: true
+      depends_on:
+        - my_traffic.raw_traffic_data
