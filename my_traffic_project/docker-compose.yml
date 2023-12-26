@@ -1,0 +1,47 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: city_traffic_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: habte
+    ports:
+      - "5432:5432"
+
+  airflow:
+    image: puckel/docker-airflow
+    environment:
+      POSTGRES_DB: city_traffic_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: habte
+      REDASH_URL: http://redash:5000
+      REDASH_API_KEY: your_redash_api_key
+    ports:
+      - "8080:8080"
+    links:
+      - postgres
+      - dbt
+    volumes:
+      - ./dags:/usr/local/airflow/dags
+      - ./dbt:/usr/local/dbt
+      - ./dbt-profiles:/root/.dbt
+    depends_on:
+      - postgres
+      - dbt
+
+  dbt:
+    image: dbt:latest
+    command: ["run"]
+    volumes:
+      - ./dbt:/usr/local/dbt
+      - ./dbt-profiles:/root/.dbt
+    environment:
+      DBT_PROFILES_DIR: /root/.dbt
+
+  redash:
+    image: redash/redash
+    environment:
+      REDASH_DATABASE_URL: postgresql://postgres:habte@localhost/city_traffic_db
+    ports:
+      - "5000:5000"
