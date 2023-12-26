@@ -199,3 +199,57 @@ Runtime Error
 [0m16:09:10.899477 [debug] [MainThread]: Command `dbt run` failed at 16:09:10.898850 after 0.09 seconds
 [0m16:09:10.906878 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff2999e2c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff29dcf0210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff29dcf0290>]}
 [0m16:09:10.911465 [debug] [MainThread]: Flushing usage events
+[0m12:46:03.352246 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc2d7363910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc2d73427d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc2d71afd50>]}
+
+
+============================== 12:46:03.361501 | 10306d42-9aac-48b6-a5f2-3e27ff693a6f ==============================
+[0m12:46:03.361501 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:46:03.363652 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/habte/WEEK02', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init WEEK02', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:46:03.366010 [error] [MainThread]: Encountered an error:
+string indices must be integers, not 'str'
+[0m12:46:03.369939 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/habte/dbt-env/lib/python3.11/site-packages/dbt/cli/requires.py", line 90, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/habte/dbt-env/lib/python3.11/site-packages/dbt/cli/requires.py", line 75, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/habte/dbt-env/lib/python3.11/site-packages/dbt/cli/main.py", line 515, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/habte/dbt-env/lib/python3.11/site-packages/dbt/task/init.py", line 317, in run
+    profile_name = self.get_profile_name_from_current_project()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/habte/dbt-env/lib/python3.11/site-packages/dbt/task/init.py", line 142, in get_profile_name_from_current_project
+    return dbt_project["profile"]
+           ~~~~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+[0m12:46:03.378410 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 0.06804607, "process_user_time": 4.904865, "process_kernel_time": 0.214463, "process_mem_max_rss": "107556", "process_in_blocks": "152", "process_out_blocks": "8", "command_success": false}
+[0m12:46:03.380261 [debug] [MainThread]: Command `dbt init` failed at 12:46:03.379729 after 0.07 seconds
+[0m12:46:03.381793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc2d721a690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc2d6d65c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc2dbc84a50>]}
+[0m12:46:03.383223 [debug] [MainThread]: Flushing usage events
+[0m12:48:34.082945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce75bfd4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce76185650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce75a86810>]}
+
+
+============================== 12:48:34.090477 | 413148c0-606e-4591-a9aa-b98642c830dc ==============================
+[0m12:48:34.090477 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:48:34.092497 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/home/habte/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init WEEK02', 'send_anonymous_usage_stats': 'True'}
+[0m12:48:34.095375 [debug] [MainThread]: Starter project path: /home/habte/dbt-env/lib/python3.11/site-packages/dbt/include/starter_project
+[0m12:48:34.103623 [info ] [MainThread]: 
+Your new dbt project "WEEK02" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:48:34.106255 [info ] [MainThread]: Setting up your profile.
