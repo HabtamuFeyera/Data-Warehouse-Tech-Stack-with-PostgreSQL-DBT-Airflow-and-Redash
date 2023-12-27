@@ -1,0 +1,348 @@
+[2023-12-27T06:00:58.002+0000] {processor.py:156} INFO - Started process (PID=138) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:00:58.003+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:00:58.178+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:00:58.178+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:01:08.707+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:01:18.217+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:01:18.188+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T06:01:20.556+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:01:20.515+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-26T00:00:00+00:00, run_after=2023-12-27T00:00:00+00:00
+[2023-12-27T06:01:22.557+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 24.894 seconds
+[2023-12-27T06:09:18.989+0000] {processor.py:156} INFO - Started process (PID=348) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:09:19.089+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:09:19.225+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:09:19.090+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:09:22.579+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:09:27.125+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:09:27.124+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T06:09:31.988+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:09:31.987+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T06:09:34.338+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 15.616 seconds
+[2023-12-27T06:17:24.449+0000] {processor.py:156} INFO - Started process (PID=556) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:17:24.593+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:17:24.722+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:17:24.721+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:17:27.406+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:17:30.704+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:17:30.678+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T06:17:33.426+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:17:33.353+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T06:17:34.461+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 10.230 seconds
+[2023-12-27T06:22:46.738+0000] {processor.py:156} INFO - Started process (PID=700) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:22:46.825+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:22:46.827+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:22:46.827+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:22:48.787+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:22:53.295+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:22:53.295+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T06:22:56.207+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:22:56.200+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T06:22:57.375+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 10.835 seconds
+[2023-12-27T06:27:27.609+0000] {processor.py:156} INFO - Started process (PID=50) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:27:27.614+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:27:27.616+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:27:27.615+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:27:28.367+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:27:29.832+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:27:29.831+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T06:27:30.549+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:27:30.524+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T06:27:31.001+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 3.471 seconds
+[2023-12-27T06:28:48.663+0000] {processor.py:156} INFO - Started process (PID=124) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:28:48.667+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:28:48.671+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:28:48.671+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:28:50.397+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:28:50.902+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:28:50.901+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T06:28:51.347+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:28:51.346+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T06:28:51.676+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 3.020 seconds
+[2023-12-27T06:29:48.624+0000] {processor.py:156} INFO - Started process (PID=172) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:29:48.632+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:29:48.647+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:29:48.642+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:29:49.469+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:29:50.213+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:29:50.207+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T06:29:51.317+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:29:51.317+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T06:29:51.559+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 2.975 seconds
+[2023-12-27T06:32:14.152+0000] {processor.py:156} INFO - Started process (PID=254) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:32:14.215+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:32:14.273+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:32:14.217+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:32:17.090+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:32:21.343+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:32:21.331+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T06:32:23.104+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:32:23.102+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T06:32:23.605+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 9.544 seconds
+[2023-12-27T06:37:19.711+0000] {processor.py:156} INFO - Started process (PID=49) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:37:19.717+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:37:19.718+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:37:19.718+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:37:19.819+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:37:20.347+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:37:20.347+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T06:37:20.443+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:37:20.442+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T06:37:20.539+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 0.837 seconds
+[2023-12-27T06:38:39.373+0000] {processor.py:156} INFO - Started process (PID=120) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:38:39.376+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:38:39.386+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:38:39.385+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:38:44.373+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:38:46.446+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:38:46.445+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T06:38:48.305+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:38:48.305+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T06:38:49.302+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 9.962 seconds
+[2023-12-27T06:43:05.331+0000] {processor.py:156} INFO - Started process (PID=225) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:43:05.429+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:43:05.431+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:43:05.430+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:43:07.777+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:43:10.990+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:43:10.990+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T06:43:12.776+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:43:12.774+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T06:43:13.591+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 8.518 seconds
+[2023-12-27T06:46:36.726+0000] {processor.py:156} INFO - Started process (PID=68) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T06:46:36.738+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T06:46:36.753+0000] {logging_mixin.py:117} INFO - [2023-12-27T06:46:36.753+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T06:46:37.522+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T06:46:45.859+0000] {logging_mixin.py:117} WARNING - Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0x7f65879c7d40>
+[2023-12-27T06:46:45.860+0000] {logging_mixin.py:117} WARNING - Traceback (most recent call last):
+[2023-12-27T06:46:45.860+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/weakref.py", line 358, in remove
+[2023-12-27T06:46:45.873+0000] {logging_mixin.py:117} WARNING -     def remove(k, selfref=ref(self)):
+[2023-12-27T06:46:45.873+0000] {logging_mixin.py:117} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 466, in _exit_gracefully
+[2023-12-27T06:46:45.874+0000] {logging_mixin.py:117} WARNING -     self.log.debug("Current Stacktrace is: %s", '\n'.join(map(str, inspect.stack())))
+[2023-12-27T06:46:45.874+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1513, in stack
+[2023-12-27T06:46:45.875+0000] {logging_mixin.py:117} WARNING -     return getouterframes(sys._getframe(1), context)
+[2023-12-27T06:46:45.876+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1490, in getouterframes
+[2023-12-27T06:46:45.881+0000] {logging_mixin.py:117} WARNING -     frameinfo = (frame,) + getframeinfo(frame, context)
+[2023-12-27T06:46:45.882+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1464, in getframeinfo
+[2023-12-27T06:46:45.883+0000] {logging_mixin.py:117} WARNING -     lines, lnum = findsource(frame)
+[2023-12-27T06:46:45.883+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 780, in findsource
+[2023-12-27T06:46:45.884+0000] {logging_mixin.py:117} WARNING -     module = getmodule(object, file)
+[2023-12-27T06:46:45.884+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 739, in getmodule
+[2023-12-27T06:46:45.893+0000] {logging_mixin.py:117} WARNING -     f = getabsfile(module)
+[2023-12-27T06:46:45.894+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 708, in getabsfile
+[2023-12-27T06:46:45.894+0000] {logging_mixin.py:117} WARNING -     _filename = getsourcefile(object) or getfile(object)
+[2023-12-27T06:46:45.895+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 693, in getsourcefile
+[2023-12-27T06:46:45.896+0000] {logging_mixin.py:117} WARNING -     if os.path.exists(filename):
+[2023-12-27T06:46:45.896+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/genericpath.py", line 19, in exists
+[2023-12-27T06:46:45.896+0000] {logging_mixin.py:117} WARNING -     os.stat(path)
+[2023-12-27T06:46:45.905+0000] {logging_mixin.py:117} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 466, in _exit_gracefully
+[2023-12-27T06:46:45.906+0000] {logging_mixin.py:117} WARNING -     self.log.debug("Current Stacktrace is: %s", '\n'.join(map(str, inspect.stack())))
+[2023-12-27T06:46:45.906+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1513, in stack
+[2023-12-27T06:46:45.907+0000] {logging_mixin.py:117} WARNING -     return getouterframes(sys._getframe(1), context)
+[2023-12-27T06:46:45.907+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1490, in getouterframes
+[2023-12-27T06:46:45.917+0000] {logging_mixin.py:117} WARNING -     frameinfo = (frame,) + getframeinfo(frame, context)
+[2023-12-27T06:46:45.917+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1460, in getframeinfo
+[2023-12-27T06:46:45.918+0000] {logging_mixin.py:117} WARNING -     filename = getsourcefile(frame) or getfile(frame)
+[2023-12-27T06:46:45.919+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 696, in getsourcefile
+[2023-12-27T06:46:45.919+0000] {logging_mixin.py:117} WARNING -     if getattr(getmodule(object, filename), '__loader__', None) is not None:
+[2023-12-27T06:46:45.920+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 733, in getmodule
+[2023-12-27T06:46:45.925+0000] {logging_mixin.py:117} WARNING -     if ismodule(module) and hasattr(module, '__file__'):
+[2023-12-27T06:46:45.925+0000] {logging_mixin.py:117} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/deprecation_tools.py", line 29, in getattr_with_deprecation
+[2023-12-27T06:46:45.926+0000] {logging_mixin.py:117} WARNING -     raise AttributeError(f"The module `{module!r}` has no attribute `{name!r}`")
+[2023-12-27T06:46:45.926+0000] {logging_mixin.py:117} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 470, in _exit_gracefully
+[2023-12-27T06:46:45.926+0000] {logging_mixin.py:117} WARNING -     sys.exit(os.EX_OK)
+[2023-12-27T06:46:45.927+0000] {logging_mixin.py:117} WARNING - SystemExit: 0
+[2023-12-27T06:46:47.490+0000] {processor.py:181} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 481, in checkout
+    rec._checkin_failed(err, _fairy_was_created=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 478, in checkout
+    dbapi_connection = rec.get_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 607, in get_connection
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 177, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 161, in _handle_dag_file_processing
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 783, in process_file
+    dagbag.sync_to_db(processor_subdir=self._dag_directory, session=session)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 632, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 360, in iter
+    raise retry_exc.reraise()
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 193, in reraise
+    raise self.last_attempt.result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 428, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 644, in sync_to_db
+    serialize_errors.extend(_serialize_dag_capturing_errors(dag, session))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 618, in _serialize_dag_capturing_errors
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/serialized_dag.py", line 150, in write_dag
+    (timezone.utcnow() - timedelta(seconds=min_update_interval)) < cls.last_updated,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2810, in first
+    return self.limit(1)._iter().first()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2897, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1688, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1530, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3197, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3276, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3247, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2101, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 481, in checkout
+    rec._checkin_failed(err, _fairy_was_created=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 478, in checkout
+    dbapi_connection = rec.get_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 607, in get_connection
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2023-12-27T11:01:58.582+0000] {processor.py:156} INFO - Started process (PID=68) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:01:58.586+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:01:58.587+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:01:58.587+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:01:58.901+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:02:02.274+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:02:02.265+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:02:02.799+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:02:02.773+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:02:03.126+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 4.622 seconds
+[2023-12-27T11:03:33.148+0000] {processor.py:156} INFO - Started process (PID=151) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:03:33.162+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:03:33.164+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:03:33.163+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:03:34.261+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:03:34.600+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:03:34.599+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:03:34.832+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:03:34.832+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:03:35.022+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 1.884 seconds
+[2023-12-27T11:04:28.534+0000] {processor.py:156} INFO - Started process (PID=197) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:04:28.569+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:04:28.576+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:04:28.576+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:04:29.274+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:04:29.731+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:04:29.730+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:04:30.166+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:04:30.151+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:04:30.352+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 1.952 seconds
+[2023-12-27T11:05:04.945+0000] {processor.py:156} INFO - Started process (PID=243) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:05:04.970+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:05:04.983+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:05:04.983+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:05:05.166+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:05:05.506+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:05:05.506+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:05:05.668+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:05:05.668+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:05:05.858+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 0.930 seconds
+[2023-12-27T11:05:39.839+0000] {processor.py:156} INFO - Started process (PID=295) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:05:39.877+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:05:39.879+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:05:39.878+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:05:40.016+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:05:40.429+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:05:40.429+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:05:40.657+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:05:40.656+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:05:40.815+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 0.991 seconds
+[2023-12-27T11:06:13.341+0000] {processor.py:156} INFO - Started process (PID=346) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:06:13.389+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:06:13.390+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:06:13.390+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:06:13.804+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:06:14.467+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:06:14.466+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:06:14.989+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:06:14.988+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:06:15.329+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 2.022 seconds
+[2023-12-27T11:06:55.037+0000] {processor.py:156} INFO - Started process (PID=400) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:06:55.077+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:06:55.079+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:06:55.078+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:06:55.322+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:06:56.048+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:06:56.048+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:06:56.552+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:06:56.551+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:06:56.896+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 1.887 seconds
+[2023-12-27T11:08:22.490+0000] {processor.py:156} INFO - Started process (PID=474) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:08:22.495+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:08:22.508+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:08:22.499+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:08:22.839+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:08:23.442+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:08:23.441+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:08:24.237+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:08:24.237+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:08:24.558+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 2.159 seconds
+[2023-12-27T11:08:56.250+0000] {processor.py:156} INFO - Started process (PID=512) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:08:56.269+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:08:56.272+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:08:56.271+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:08:56.435+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:08:56.755+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:08:56.754+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:08:57.187+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:08:57.187+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:08:57.654+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 1.445 seconds
+[2023-12-27T11:09:34.260+0000] {processor.py:156} INFO - Started process (PID=564) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:09:34.293+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:09:34.303+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:09:34.303+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:09:34.513+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:09:34.801+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:09:34.800+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:09:34.992+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:09:34.992+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:09:35.157+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 0.923 seconds
+[2023-12-27T11:10:10.002+0000] {processor.py:156} INFO - Started process (PID=615) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:10:10.037+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:10:10.040+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:10:10.039+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:10:10.181+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:10:10.976+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:10:10.976+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:10:11.453+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:10:11.453+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:10:11.700+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 1.727 seconds
+[2023-12-27T11:10:57.369+0000] {processor.py:156} INFO - Started process (PID=659) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:10:57.379+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:10:57.381+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:10:57.380+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:10:57.946+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:10:59.394+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:10:59.389+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:11:01.061+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:11:01.058+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:11:02.996+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 5.644 seconds
+[2023-12-27T11:13:53.729+0000] {processor.py:156} INFO - Started process (PID=67) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:13:53.773+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:13:53.774+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:13:53.774+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:13:54.423+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:13:58.655+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:13:58.655+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:13:59.368+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:13:59.348+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:13:59.676+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 6.002 seconds
+[2023-12-27T11:15:50.367+0000] {processor.py:156} INFO - Started process (PID=152) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:15:50.381+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:15:50.392+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:15:50.389+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:15:51.556+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:15:52.061+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:15:52.060+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:15:52.832+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:15:52.809+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:15:53.230+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 2.889 seconds
+[2023-12-27T11:16:23.909+0000] {processor.py:156} INFO - Started process (PID=211) to work on /opt/airflow/dags/mydag.py
+[2023-12-27T11:16:23.938+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/mydag.py for tasks to queue
+[2023-12-27T11:16:23.939+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:16:23.939+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/mydag.py
+[2023-12-27T11:16:24.031+0000] {processor.py:768} INFO - DAG(s) dict_keys(['HABTE']) retrieved from /opt/airflow/dags/mydag.py
+[2023-12-27T11:16:24.278+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:16:24.277+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:16:24.526+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:16:24.525+0000] {dag.py:3328} INFO - Setting next_dagrun for HABTE to 2023-12-27T00:00:00+00:00, run_after=2023-12-28T00:00:00+00:00
+[2023-12-27T11:16:24.646+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/mydag.py took 0.744 seconds

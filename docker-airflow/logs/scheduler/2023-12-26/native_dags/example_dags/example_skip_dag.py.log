@@ -250,3 +250,184 @@
 [2023-12-26T14:20:37.481+0000] {logging_mixin.py:117} INFO - [2023-12-26T14:20:37.481+0000] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-12-26T14:20:38.549+0000] {logging_mixin.py:117} INFO - [2023-12-26T14:20:38.548+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2023-12-25T14:20:38.548408+00:00, run_after=2023-12-26T14:20:38.548408+00:00
 [2023-12-26T14:20:39.636+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 3.932 seconds
+[2023-12-26T15:38:50.369+0000] {processor.py:156} INFO - Started process (PID=79) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-26T15:38:50.411+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-12-26T15:38:50.413+0000] {logging_mixin.py:117} INFO - [2023-12-26T15:38:50.412+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-26T15:38:50.943+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-26T15:38:52.268+0000] {logging_mixin.py:117} INFO - [2023-12-26T15:38:52.267+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-26T15:38:52.837+0000] {logging_mixin.py:117} INFO - [2023-12-26T15:38:52.836+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2023-12-25T15:38:52.836208+00:00, run_after=2023-12-26T15:38:52.836208+00:00
+[2023-12-26T15:38:53.115+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 2.810 seconds
+[2023-12-26T15:43:05.764+0000] {processor.py:156} INFO - Started process (PID=165) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-26T15:43:05.780+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-12-26T15:43:05.782+0000] {logging_mixin.py:117} INFO - [2023-12-26T15:43:05.781+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-26T15:43:06.098+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-26T15:43:06.901+0000] {logging_mixin.py:117} INFO - [2023-12-26T15:43:06.900+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-26T15:43:07.325+0000] {logging_mixin.py:117} INFO - [2023-12-26T15:43:07.324+0000] {dag.py:3328} INFO - Setting next_dagrun for example_skip_dag to 2023-12-25T15:43:07.324199+00:00, run_after=2023-12-26T15:43:07.324199+00:00
+[2023-12-26T15:43:07.614+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 1.881 seconds
+[2023-12-26T15:50:29.694+0000] {processor.py:156} INFO - Started process (PID=108) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-26T15:50:29.733+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-12-26T15:50:29.735+0000] {logging_mixin.py:117} INFO - [2023-12-26T15:50:29.735+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-26T15:50:30.000+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-26T15:50:39.106+0000] {logging_mixin.py:117} INFO - [2023-12-26T15:50:39.106+0000] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...
+[2023-12-26T15:50:39.109+0000] {logging_mixin.py:117} WARNING - Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0x7fb4864c4d40>
+[2023-12-26T15:50:39.110+0000] {logging_mixin.py:117} WARNING - Traceback (most recent call last):
+[2023-12-26T15:50:39.110+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/weakref.py", line 358, in remove
+[2023-12-26T15:50:39.117+0000] {logging_mixin.py:117} WARNING -     def remove(k, selfref=ref(self)):
+[2023-12-26T15:50:39.118+0000] {logging_mixin.py:117} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 466, in _exit_gracefully
+[2023-12-26T15:50:39.118+0000] {logging_mixin.py:117} WARNING -     self.log.debug("Current Stacktrace is: %s", '\n'.join(map(str, inspect.stack())))
+[2023-12-26T15:50:39.119+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1513, in stack
+[2023-12-26T15:50:39.120+0000] {logging_mixin.py:117} WARNING -     return getouterframes(sys._getframe(1), context)
+[2023-12-26T15:50:39.120+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1490, in getouterframes
+[2023-12-26T15:50:39.123+0000] {logging_mixin.py:117} WARNING -     frameinfo = (frame,) + getframeinfo(frame, context)
+[2023-12-26T15:50:39.123+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1464, in getframeinfo
+[2023-12-26T15:50:39.124+0000] {logging_mixin.py:117} WARNING -     lines, lnum = findsource(frame)
+[2023-12-26T15:50:39.125+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 780, in findsource
+[2023-12-26T15:50:39.126+0000] {logging_mixin.py:117} WARNING -     module = getmodule(object, file)
+[2023-12-26T15:50:39.126+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 739, in getmodule
+[2023-12-26T15:50:39.127+0000] {logging_mixin.py:117} WARNING -     f = getabsfile(module)
+[2023-12-26T15:50:39.127+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 708, in getabsfile
+[2023-12-26T15:50:39.128+0000] {logging_mixin.py:117} WARNING -     _filename = getsourcefile(object) or getfile(object)
+[2023-12-26T15:50:39.128+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 693, in getsourcefile
+[2023-12-26T15:50:39.133+0000] {logging_mixin.py:117} WARNING -     if os.path.exists(filename):
+[2023-12-26T15:50:39.134+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/genericpath.py", line 19, in exists
+[2023-12-26T15:50:39.134+0000] {logging_mixin.py:117} WARNING -     os.stat(path)
+[2023-12-26T15:50:39.134+0000] {logging_mixin.py:117} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 466, in _exit_gracefully
+[2023-12-26T15:50:39.135+0000] {logging_mixin.py:117} WARNING -     self.log.debug("Current Stacktrace is: %s", '\n'.join(map(str, inspect.stack())))
+[2023-12-26T15:50:39.135+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1513, in stack
+[2023-12-26T15:50:39.137+0000] {logging_mixin.py:117} WARNING -     return getouterframes(sys._getframe(1), context)
+[2023-12-26T15:50:39.140+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1490, in getouterframes
+[2023-12-26T15:50:39.141+0000] {logging_mixin.py:117} WARNING -     frameinfo = (frame,) + getframeinfo(frame, context)
+[2023-12-26T15:50:39.142+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1464, in getframeinfo
+[2023-12-26T15:50:39.143+0000] {logging_mixin.py:117} WARNING -     lines, lnum = findsource(frame)
+[2023-12-26T15:50:39.143+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 780, in findsource
+[2023-12-26T15:50:39.144+0000] {logging_mixin.py:117} WARNING -     module = getmodule(object, file)
+[2023-12-26T15:50:39.144+0000] {logging_mixin.py:117} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 733, in getmodule
+[2023-12-26T15:50:39.149+0000] {logging_mixin.py:117} WARNING -     if ismodule(module) and hasattr(module, '__file__'):
+[2023-12-26T15:50:39.150+0000] {logging_mixin.py:117} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/deprecation_tools.py", line 29, in getattr_with_deprecation
+[2023-12-26T15:50:39.150+0000] {logging_mixin.py:117} WARNING -     raise AttributeError(f"The module `{module!r}` has no attribute `{name!r}`")
+[2023-12-26T15:50:39.150+0000] {logging_mixin.py:117} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 470, in _exit_gracefully
+[2023-12-26T15:50:39.151+0000] {logging_mixin.py:117} WARNING -     sys.exit(os.EX_OK)
+[2023-12-26T15:50:39.151+0000] {logging_mixin.py:117} WARNING - SystemExit: 0
+[2023-12-26T15:50:39.760+0000] {processor.py:181} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 481, in checkout
+    rec._checkin_failed(err, _fairy_was_created=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 478, in checkout
+    dbapi_connection = rec.get_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 607, in get_connection
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 177, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 161, in _handle_dag_file_processing
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 783, in process_file
+    dagbag.sync_to_db(processor_subdir=self._dag_directory, session=session)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 632, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 360, in iter
+    raise retry_exc.reraise()
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 193, in reraise
+    raise self.last_attempt.result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 428, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 644, in sync_to_db
+    serialize_errors.extend(_serialize_dag_capturing_errors(dag, session))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 618, in _serialize_dag_capturing_errors
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/serialized_dag.py", line 150, in write_dag
+    (timezone.utcnow() - timedelta(seconds=min_update_interval)) < cls.last_updated,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2810, in first
+    return self.limit(1)._iter().first()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2897, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1688, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1530, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3197, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3276, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3247, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2101, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 481, in checkout
+    rec._checkin_failed(err, _fairy_was_created=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 478, in checkout
+    dbapi_connection = rec.get_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 607, in get_connection
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
