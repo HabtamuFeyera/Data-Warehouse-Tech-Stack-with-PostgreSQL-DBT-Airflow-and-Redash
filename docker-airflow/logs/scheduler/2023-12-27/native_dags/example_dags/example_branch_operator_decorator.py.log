@@ -152,3 +152,67 @@
 [2023-12-27T11:16:36.940+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:16:36.940+0000] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-12-27T11:16:37.038+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:16:37.038+0000] {dag.py:3328} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2023-12-26T00:00:00+00:00, run_after=2023-12-27T00:00:00+00:00
 [2023-12-27T11:16:37.174+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.434 seconds
+[2023-12-27T11:47:44.984+0000] {processor.py:156} INFO - Started process (PID=127) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-12-27T11:47:45.250+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2023-12-27T11:47:45.460+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:47:45.379+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-12-27T11:48:17.682+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:48:17.530+0000] {timeout.py:68} ERROR - Process timed out, PID: 127
+[2023-12-27T11:48:21.240+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:48:17.839+0000] {dagbag.py:330} ERROR - Failed to import: /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 46, in <module>
+    random_choice_instance = random_choice(choices=options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 277, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/branch_python.py", line 60, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 185, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 415, in apply_defaults
+    self.set_xcomargs_dependencies()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1111, in set_xcomargs_dependencies
+    XComArg.apply_upstream_relationship(self, arg)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom_arg.py", line 112, in apply_upstream_relationship
+    for ref in XComArg.iter_xcom_args(arg):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom_arg.py", line 99, in iter_xcom_args
+    yield from XComArg.iter_xcom_args(elem)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom_arg.py", line 96, in iter_xcom_args
+    yield from XComArg.iter_xcom_args(elem)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom_arg.py", line 100, in iter_xcom_args
+    elif isinstance(arg, AbstractOperator):
+  File "/usr/local/lib/python3.7/abc.py", line 139, in __instancecheck__
+    return _abc_instancecheck(cls, instance)
+  File "/usr/local/lib/python3.7/abc.py", line 143, in __subclasscheck__
+    return _abc_subclasscheck(cls, subclass)
+  File "/usr/local/lib/python3.7/abc.py", line 143, in __subclasscheck__
+    return _abc_subclasscheck(cls, subclass)
+  File "/usr/local/lib/python3.7/abc.py", line 143, in __subclasscheck__
+    return _abc_subclasscheck(cls, subclass)
+  [Previous line repeated 1 more time]
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.4.0/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.4.0/best-practices.html#reducing-dag-complexity, PID: 127
+[2023-12-27T11:48:22.047+0000] {processor.py:770} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-12-27T11:48:27.836+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 43.472 seconds
+[2023-12-27T11:54:16.811+0000] {processor.py:156} INFO - Started process (PID=108) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-12-27T11:54:16.847+0000] {processor.py:758} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2023-12-27T11:54:16.848+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:54:16.848+0000] {dagbag.py:525} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-12-27T11:54:17.161+0000] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_python_operator_decorator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-12-27T11:54:22.043+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:54:22.042+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:54:22.961+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:54:22.961+0000] {dag.py:3328} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2023-12-26T00:00:00+00:00, run_after=2023-12-27T00:00:00+00:00
+[2023-12-27T11:54:23.472+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 6.721 seconds

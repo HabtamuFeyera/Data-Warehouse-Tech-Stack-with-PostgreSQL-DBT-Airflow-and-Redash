@@ -343,3 +343,30 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2023-12-27T11:16:23.643+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:16:23.643+0000] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-12-27T11:16:23.718+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:16:23.717+0000] {dag.py:3328} INFO - Setting next_dagrun for city_traffic_dag to 2023-01-30T00:00:00+00:00, run_after=2023-01-31T00:00:00+00:00
 [2023-12-27T11:16:23.828+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/city_traffic_dag.py took 1.761 seconds
+[2023-12-27T11:46:15.831+0000] {processor.py:156} INFO - Started process (PID=89) to work on /opt/airflow/dags/city_traffic_dag.py
+[2023-12-27T11:46:15.893+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/city_traffic_dag.py for tasks to queue
+[2023-12-27T11:46:15.916+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:46:15.915+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/city_traffic_dag.py
+[2023-12-27T11:46:19.929+0000] {processor.py:768} INFO - DAG(s) dict_keys(['city_traffic_dag']) retrieved from /opt/airflow/dags/city_traffic_dag.py
+[2023-12-27T11:46:22.264+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:46:22.264+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:46:23.204+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/city_traffic_dag.py took 7.386 seconds
+[2023-12-27T11:53:35.343+0000] {processor.py:156} INFO - Started process (PID=78) to work on /opt/airflow/dags/city_traffic_dag.py
+[2023-12-27T11:53:35.372+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/city_traffic_dag.py for tasks to queue
+[2023-12-27T11:53:35.400+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:53:35.373+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/city_traffic_dag.py
+[2023-12-27T11:53:36.023+0000] {processor.py:768} INFO - DAG(s) dict_keys(['city_traffic_dag']) retrieved from /opt/airflow/dags/city_traffic_dag.py
+[2023-12-27T11:53:40.730+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:53:40.730+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:53:41.832+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/city_traffic_dag.py took 6.557 seconds
+[2023-12-27T11:54:06.775+0000] {processor.py:156} INFO - Started process (PID=106) to work on /opt/airflow/dags/city_traffic_dag.py
+[2023-12-27T11:54:06.780+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/city_traffic_dag.py for tasks to queue
+[2023-12-27T11:54:06.794+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:54:06.793+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/city_traffic_dag.py
+[2023-12-27T11:54:07.281+0000] {processor.py:768} INFO - DAG(s) dict_keys(['city_traffic_dag']) retrieved from /opt/airflow/dags/city_traffic_dag.py
+[2023-12-27T11:54:15.041+0000] {processor.py:727} INFO - Executed failure callback for <TaskInstance: city_traffic_dag.load_data scheduled__2023-01-26T00:00:00+00:00 [failed]> in state failed
+[2023-12-27T11:54:15.257+0000] {processor.py:727} INFO - Executed failure callback for <TaskInstance: city_traffic_dag.run_dbt scheduled__2023-01-31T00:00:00+00:00 [failed]> in state failed
+[2023-12-27T11:54:15.436+0000] {processor.py:727} INFO - Executed failure callback for <TaskInstance: city_traffic_dag.load_data scheduled__2023-01-28T00:00:00+00:00 [failed]> in state failed
+[2023-12-27T11:54:15.599+0000] {processor.py:727} INFO - Executed failure callback for <TaskInstance: city_traffic_dag.load_data scheduled__2023-01-27T00:00:00+00:00 [failed]> in state failed
+[2023-12-27T11:54:15.812+0000] {processor.py:727} INFO - Executed failure callback for <TaskInstance: city_traffic_dag.load_data scheduled__2023-01-25T00:00:00+00:00 [failed]> in state failed
+[2023-12-27T11:54:16.615+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:54:16.614+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-12-27T11:54:17.232+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/city_traffic_dag.py took 10.567 seconds
+[2023-12-27T11:55:54.113+0000] {processor.py:156} INFO - Started process (PID=179) to work on /opt/airflow/dags/city_traffic_dag.py
+[2023-12-27T11:55:54.120+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/city_traffic_dag.py for tasks to queue
+[2023-12-27T11:55:54.123+0000] {logging_mixin.py:117} INFO - [2023-12-27T11:55:54.122+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/city_traffic_dag.py
+[2023-12-27T11:55:54.467+0000] {processor.py:768} INFO - DAG(s) dict_keys(['city_traffic_dag']) retrieved from /opt/airflow/dags/city_traffic_dag.py
